@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html class="gr__iitism_ac_in">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>CENTRAL RESEARCH FACILITY | IIT (ISM), DHANBAD </title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./style/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./style/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./style/bootstrap-datepicker.css">
+    <link rel="stylesheet" type="text/css" href="./style/dataTables.bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./style/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./style/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./style/style.css">
+    <script type="text/javascript" src="./style/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="./style/bootstrap.js"></script>
+    <script type="text/javascript" src="./style/change_color.js"></script>
+    <script type="text/javascript" src="./style/bootstrap-datepicker.js"></script>
+    <script type="text/javascript" src="./style/jquery.dataTables.js"></script>
+
+    <style type="text/css">
+        body {
+            font-size: 14px;
+            overflow-x: hidden;
+        }
+
+        .btn-primary {
+            background: #0e8ae8;
+            color: #ffffff;
+        }
+
+        .flex {
+            display: flex;
+            margin: 3em;
+            flex-direction: column;
+        }
+
+        @media only screen and (min-width: 768px) {
+
+            .flex {
+                display: flex;
+                flex-direction: row;
+            }
+        }
+
+        .child1 {
+            flex: 1;
+        }
+
+        .child1 ul li {
+            margin: 0;
+            padding: 0;
+            margin-right: .7em;
+            margin-top: .5em;
+            border: 1px solid #0e8ae8;
+            background-color: #0e8ae8;
+            border-radius: 4px;
+            color: white;
+            text-align: center;
+            padding: 8px 15px;
+        }
+
+        .child2 {
+            flex: 4;
+        }
+    </style>
+
+</head>
+
+<body id="forFont" data-gr-c-s-loaded="true">
+    <div class="container ">
+        <div class="row " id="upperNavbar" style="border-radius:4px;background-color:#0E8AE8;">
+            <div class="col-lg-12  ">
+                <div style="float:right;color:white;">
+                    <a id="sizeUp"><b style="color:white">A+</b></a>
+                    <a id="normal"><b style="color:white">A</b></a>
+                    <a id="sizeDown"><b style="color:white">A-</b></a>
+                    <span> | </span>
+                    <a href="https://mis.iitism.ac.in/" target="_blank" class="upperNavLink"><b>Intranet (MIS)</b></a>
+                    <span> | </span>
+                    <a href="http://mail.iitism.ac.in/" target="_blank" class="upperNavLink"><b>IIT (ISM) Mail</b></a>
+                    <span> | </span>
+                    <a href="https://www.iitism.ac.in/index.php/Research_consultancy/central_research_facility#" class="upperNavLink"
+                        data-toggle="modal" data-target="#myModal"><b>Contact Us</b></a>
+                    <span> | </span>
+                    <a href="https://www.facebook.com/IITISMDHNB" target="_blank" class="upperNavLink"><b><img width="18"
+                                height="18" src="./style/fb.jpg">
+                        </b></a>
+                    <span> | </span>
+                    <a href="https://twitter.com/iitism_dhanbad" target="_blank" class="upperNavLink"><b><img src="./style/twitter.jpg"
+                                width="16" height="16"> </b></a>
+                    <span> | </span>
+                    <a href="https://www.iitism.ac.in/index.php/Research_consultancy/central_research_facility#" id="green"
+                        style="display:inline-block;padding:7px; background:#61bd6d;margin-right:5px;border:white solid 1px"></a>
+                    <a href="https://www.iitism.ac.in/index.php/Research_consultancy/central_research_facility#" id="blue"
+                        style="display:inline-block;padding:7px; background:#0000fb;margin-right:5px;border:white solid 1px"></a>
+                    <a href="https://www.iitism.ac.in/index.php/Research_consultancy/central_research_facility#" id="gray"
+                        style="display:inline-block;padding:7px; background:#a38f84;border:white solid 1px"></a>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="position:relative;">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12" style="padding:0px">
+                <div id="logoContainer">
+                    <a style="width:auto; height:10px;" href="https://www.iitism.ac.in/"><img src="./style/ismlogo.png"
+                            id="ismlogo"></a>
+                </div>
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                <div id="nameContainer">
+                    <h1 id="nameHin">केंद्रीय अनुसंधान सुविधा,&nbsp; भारतीय प्रौद्योगिकी संस्थान &nbsp;<span style="font-family:arial">(भारतीय&nbsp;खनि&nbsp;विद्यापीठ),
+                            धनबाद</span></h1>
+                    <h1 id="nameEng">CENTRAL RESEARCH FACILITY, &nbsp; INDIAN INSTITUTE OF TECHNOLOGY
+                        (INDIAN&nbsp;SCHOOL&nbsp;OF&nbsp;MINES), DHANBAD</h1>
+
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 center">
+
+            </div>
+        </div>
+
+        <div class="row" id="horizontal_bar" style="height:2px;background:#0e8ae8"></div>
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">×</button>
+                        <h4 class="modal-title">Contact Us</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Main Campus</p>
+                        <p>Indian Institute of Technology (Indian School of Mines), Dhanbad</p>
+                        <p>Jharkhand, India, 826004</p>
+                        <p>Phone- 0326-2235001,2235004</p>
+                        <p>Fax- 0326-2296563</p>
+                        <p> <a href="https://www.iitism.ac.in/pdfs/TD.pdf" class="bottomLink">Telephone Directory</a></p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            var domainroot = "https://www.iitism.ac.in";
+
+            function Gsitesearch(curobj) {
+                curobj.q.value = "site:" + domainroot + " " + curobj.qfront.value;
+            }
+
+        </script>
+
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="./style/bootstrap.css" rel="stylesheet">
+        <link href="./style/mystyles.css" rel="stylesheet">
+        <link href="./style/liquid-slider.css" rel="stylesheet">
+
+
+
+
+        <div class="container">
+            <style>
+                #navcol a {
+                    color: #398AE8;
+                }
+
+                .navbar-default {
+                    border: solid 1px #ddd;
+                    margin-top: 10px;
+                }
+            </style>
+            <link rel="stylesheet" type="text/css" href="./style/mystyle.css">
+            <!--useful for drop down menu -->
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="la.jpg" alt="Los Angeles">
+                    </div>
+
+                    <div class="item">
+                        <img src="chicago.jpg" alt="Chicago">
+                    </div>
+
+                    <div class="item">
+                        <img src="ny.jpg" alt="New York">
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+            <!-- Central Research Facility content starts here -->
+            <div class="flex">
+
+                <div class="child1">
+                    <ul style="list-style:none;padding: 0">
+                        <li><a style="color:white" href="./index.html">CRF HOME</a></li>
+                        <li><a style="color:white" href="./instruments.html">INSTRUMENTS</a></li>
+                        <li><a style="color:white" href="./contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+
+                <div class="child2">
+                    <div style="width: 100%; height: 100%; background-color: #f4f4f4; border: 1px solid #1982D1; border-radius: 30px; -webkit-border-radius: 30px; -moz-border-radius: 30px; padding: 5px;"><br>
+
+                        <h5 id="arvcenter07" style="text-align:center"><b>Central Research Facility</b></h5>
+                        <p id="arvcenter08" style="text-align:center">ABOUT CENTRAL RESEARCH FACILITIES (CRF)</p>
+                        <p>A Central Research Facility at Indian School of Mines (ISM) will be a Centre of national
+                            importance
+                            at which the high-quality equipment with cutting edge technologies concentrated at a single
+                            location which will provide scientific and technical services for researchers. Such a
+                            facility
+                            is
+                            an important tool for strengthening the research-relevant infrastructure of science and,
+                            consequently, represents a key prerequisite for preserving and raising the efficiency of
+                            research.
+                            Sophisticated analytical instruments are vital for pursuing research in all areas of modern
+                            science
+                            and technology.
+                        </p>
+
+                        <p id="arvcenter08">OBJECTIVES OF CRF</p>
+                        <p>• To establish state-of- the-art research facilities and instruments to support advanced
+                            research
+                            under one umbrella;<br>
+                            • To support and promote inter- and multi- disciplinary research in contemporary and
+                            frontier
+                            areas;<br>
+                            • To enable Faculty members and research scholars of I.S.M to get the facilities of most
+                            advanced
+                            instruments without the need of going to outside Institutions as is the case at present.<br>
+                            • To establish supporting facilities (e.g. Double Distilled Water Plant, Milli-Pore and
+                            Milli-Q
+                            water Plant, Liquid Nitrogen Plant etc. ) for smooth running of instruments.<br>
+                            In addition to the main objectives as given above the Centre will also carry out following
+                            other
+                            activities:<br>
+                            • Organizing short term courses/workshops on the use and application of various instruments
+                            and
+                            analytical techniques;<br>
+                            • Impart training to technicians for maintenance and operation of sophisticated
+                            instruments;<br>
+                            • Acquiring and developing capability for preventive maintenance and repair of
+                            sophisticated
+                            instruments;<br>
+                            • Generating institutional fund by providing these facilities to the users.
+
+                        </p>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!-- Central Research Facility content ends here -->
+
+
+            <!-- copyright footer-->
+            <div class="row"> <br><br>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="background:#0e8ae8; height:25spx;color:white;text-align:center;padding-top:2px"
+                    id="copy_footer">
+                    <span><b>Copyright © Indian Institute of Technology (Indian School of Mines), Dhanbad</b></span>
+                </div>
+            </div>
+            <!-- /copyright footer-->
+
+            <script>
+                $("#green").click(function () {
+                    $('.chngecolor').css("color", "#61BD6D");
+                    $('.chngebgcolor').css("background-color", "#61BD6D");
+                });
+                $('#blue').click(function () {
+                    $('.chngecolor').css("color", "#0000FB");
+                    $('.chngebgcolor').css("background-color", "#0000FB");
+                });
+                $("#gray").click(function () {
+                    $('.chngecolor').css("color", "#A38F84");
+                    $('.chngebgcolor').css("background-color", "#A38F84");
+
+                });
+                $(function () {
+                    $('.dropdown').hover(function () {
+                        $(this).addClass('open');
+                    },
+                        function () {
+                            $(this).removeClass('open');
+                        });
+                });
+
+            </script>
+
+        </div>
+    </div>
+</body>
+
+</html>

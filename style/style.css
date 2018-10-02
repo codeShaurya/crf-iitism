@@ -1,0 +1,154 @@
+#upperNavbar{
+	background:#0e8ae8;  
+	<!-- background:#0000fb; -->
+    color:white; 
+    padding:5px 0px 5px 0px;
+}
+
+.upperNavLink{
+      text-decoration: none;
+      color: white;
+}
+
+.upperNavLink:hover{
+      color: orange;
+      text-decoration: none;
+}
+
+#nameEng{
+	margin-top: 15px;
+	font-size:11pt;
+	color:#0e8ae8; 
+	font-weight:bold; 
+        text-align: center;
+}
+
+#nameHin{
+	font-size:14pt;
+	color:#0e8ae8;  
+	font-family:hindi;
+	font-weight:bold;
+	margin-bottom:0px;
+        text-align: center;
+}
+
+#mottoHin{
+	display: none;
+	font-size:14pt;
+	color:#0e8ae8; 
+	font-family:hindi;
+}
+
+#logoContainer{
+	padding:10px;
+}
+
+#ismlogo{
+	max-width: 175px;
+	max-height: 150px;
+}
+
+#nameContainer{
+	padding-top: 25px;
+	padding-left: 15px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+#table_hover:hover{
+  color: white;
+  background: #2196f3;
+}
+
+#prof_hover{
+  background-color:rgba(0, 0, 0, 0.0001);border: none; text-align:left;
+}
+#prof_hover:hover{
+  color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+
+#logoContainer{
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	padding: 15px 0px 15px 0px; 
+}
+
+#ismlogo{
+		width: 100px;
+		height: 85px;
+}
+
+#nameEng , #nameHin , #mottoHin{
+	font-size: 12pt;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#nameEng{
+	margin-top: 5px;
+}
+
+#nameHin{
+	margin-top:5px;
+}
+#mottoHin{
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+
+#nameContainer{
+	padding-top: 0px;
+}
+
+ }
+
+/* Medium devices (desktops, 992px and up) */
+@media (max-width: 992px) { 
+ 
+
+ }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) { 
+
+	
+ 
+ }
