@@ -33,8 +33,7 @@
 
         .flex {
             display: flex;
-            margin: -1.3em;
-            margin-top: 0;
+            margin: 1.3em 0;
             flex-direction: column;
         }
 
@@ -42,7 +41,13 @@
             .flex {
                 display: flex;
                 flex-direction: row;
-                margin: 3em;
+                margin: 3em 0;
+            }
+        }
+
+        @media only screen and (min-width: 991px) {
+            .instrumentImg{
+                float:right;
             }
         }
 
@@ -253,7 +258,7 @@
             </div>
 
             <!-- Central Research Facility content starts here -->
-            <div class="flex" style="height:100vh;">
+            <div class="flex" style="height:auto;">
 
                 <!-- <div class="child1">
                     <ul style="list-style:none;padding: 0">
@@ -261,12 +266,43 @@
                         <li><a style="color:white" href="../instruments.html">INSTRUMENTS</a></li>
                         <li><a style="color:white" href="../contact.html">CONTACT</a></li>
                     </ul>
-                </div> -->
+                </div>  -->
+                <div class="child2" style="height:100%" >
+                    <div style="width: 100%; background-color: #f4f4f4; border: 1px solid #1982D1; border-radius: 30px; -webkit-border-radius: 30px; -moz-border-radius: 30px; padding: 5px;justify-content:space-between;" class="flex">
+                        <span style="flex-basis:auto">
+                           <h4><u>ELECTRON PROBE MICRO ANALYSER</u></h4>
+                           <span >
+                            The <b>Central Research Facility (CRF)</b> of Indian Institute of Technology (ISM), Dhanbad has installed Fifth Generation Electron Probe Micro Analyser “<b>SX Five</b>” from <b>CAMECA</b>, France equipped with five Wave length dispersive Spectrometers, BSE Detectors, SE Detectors, cathode luminance and sophisticated visible light optics providing image magnification ranging from 40 to 400,000.
+                           </span>
+                           <br/>
+                           <img src="../img/epma.png" class="instrumentImg" alt="EPMA" style="margin-right: 2em;margin-top:2em;" width="70%">
+                           <h5>SPECIFICATIONS:</h5>
+                           <h6><u style="color:rgb(39, 48, 185);font-weight: 650;">SX- Five with W Column:</u></h6>
+                               Maximum Accelerating Voltage:  30KV <br>
+                               Beam Diameter in Analytical Mode <br>:600 nm @ 15 KV, 100nA <br />:400 nm @ 10 KV, 10nA
+                               <br>Maximum Beam Current: Up to 10 uA
+                               <br>Beam Stability: +-0.5% per hour @ 20kV, 20nA
+                           <h6><u style="color:rgb(39, 48, 185);font-weight: 650;">SX- Five with LaB6 Column:</u></h6>
+                               Maximum Accelerating Voltage:  30KV <br>
+                               Beam Diameter in Analytical Mode <br>:100 nm @ 20 KV, 10nA <br />:200 nm @ 10 KV, 10nA
+                               <br>Maximum Beam Current: Up to 1 uA
+                               <br>Beam Stability:+-0.2% per hour @ 20kV, 10nA
+                               <div>
+                                   <br>To know more, <a href="../details/epma.pdf">Click here</a>
+                                   <br>To book, <a href="../requisition_form/epma.pdf">Click here</a>
 
-                <div class="child2" style="height:100%">
-                    <div style="width: 100%; height: 100%; background-color: #f4f4f4; border: 1px solid #1982D1; border-radius: 30px; -webkit-border-radius: 30px; -moz-border-radius: 30px; padding: 5px;"><br>
-                        <iframe src="./FINAL_MALS.pdf" height="100%" width="100%" frameborder="0"></iframe>
-                        To book, <a href="./MALSS-Form.pdf">Click here</a>
+                                </div>
+                            </span>
+                        <span style="flex-grow:5;flex-basis:auto;">
+                            <h4><u>
+                                Faculty-in-Charge
+                                </u>
+                            </h4>
+                            <img src="https://www.iitism.ac.in/employee/887/emp_887.jpg" alt="Dr. S. Sarangi"><br>
+                            Dr. S. Sarangi <br>Dept. of Applied Geology. <br>Tel. No. +91-9471173190 <br><u>EPMA operator:</u><br>Mr. Anil Kumar Champati <br>Tel: +91 8454993511
+
+                        </span>
+                        <br>
                     </div>
                 </div>
 

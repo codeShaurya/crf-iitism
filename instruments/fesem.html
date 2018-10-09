@@ -33,8 +33,7 @@
 
         .flex {
             display: flex;
-            margin: -1.3em;
-            margin-top: 0;
+            margin: 1.3em 0;
             flex-direction: column;
         }
 
@@ -42,7 +41,13 @@
             .flex {
                 display: flex;
                 flex-direction: row;
-                margin: 3em;
+                margin: 3em 0;
+            }
+        }
+
+        @media only screen and (min-width: 991px) {
+            .instrumentImg{
+                float:right;
             }
         }
 
@@ -253,7 +258,7 @@
             </div>
 
             <!-- Central Research Facility content starts here -->
-            <div class="flex" style="height:100vh;">
+            <div class="flex" style="height:auto;">
 
                 <!-- <div class="child1">
                     <ul style="list-style:none;padding: 0">
@@ -261,12 +266,46 @@
                         <li><a style="color:white" href="../instruments.html">INSTRUMENTS</a></li>
                         <li><a style="color:white" href="../contact.html">CONTACT</a></li>
                     </ul>
-                </div> -->
+                </div>  -->
+                <div class="child2" style="height:100%" >
+                    <div style="width: 100%; background-color: #f4f4f4; border: 1px solid #1982D1; border-radius: 30px; -webkit-border-radius: 30px; -moz-border-radius: 30px; padding: 5px;justify-content:space-between;" class="flex">
+                        <span style="flex-basis:auto">
+                           <h4><u>FESEM with EDS, EDSD, CL and STEM</u></h4>
+                           <span >
+                                The Central Research Facility (CRF) has installed FE-SEM Supra 55 (Carl Zeiss, Germany) with Air Lock chamber for scientific research. Attachments available with the FE-SEM are STEM, EDS (Oxford Liquid Nitrogen free SDD X MAX 50 EDS), EBSD (Oxford Integrated Advanced Aztec HKL EBSD with forescatter detector system with 4 diodes for Nordlys Analysis) and Mono CL4 (Gatan, UK).                           </span>
+                           <br/>
+                           <img src="../img/fesem.png" class="instrumentImg" alt="FESEM" style="margin-right: 2em;margin-top:2em;" width="70%">
+                           <h5>Major Features:</h5>
+                           Resolution: 0.8 nm at 15 KV, 1.6nm at 1 KV<br>
+                           Magnification: 12-1000000X
+                           <br>Acceleration voltage: 0.02V TO 30 KV
+                               <br>Gun type: Schottky Field Emission Electron Gun
+                               <br>Maximum Probe Current: 12 pA to 100 nA
+                               <br>Detectors: SE, BSE, In-lens, Retractable STEM with Bright and dark field
+                               <br>Chamber size: 330 mm diameter × 270 mm height
+                           <h5>Sample Coating facilities:</h5>
+                           Carbon, Gold and Platinum-Palladium are available.
 
-                <div class="child2" style="height:100%">
-                    <div style="width: 100%; height: 100%; background-color: #f4f4f4; border: 1px solid #1982D1; border-radius: 30px; -webkit-border-radius: 30px; -moz-border-radius: 30px; padding: 5px;"><br>
-                        <iframe src="./FINAL_MALS.pdf" height="100%" width="100%" frameborder="0"></iframe>
-                        To book, <a href="./MALSS-Form.pdf">Click here</a>
+                           <h5>Attachments:</h5>
+
+                           <b>EDS</b>: Single sensor large area (50 mm2) Silicon Drift Detector (SDD) sensor, count rates > 500,000 cps, Throughput > 200,000 cps, Resolution: @ 127eV @ MnKα<br>
+                           <b>Mono CL4:</b>: Cathodoluminescence (CL) consisting Mono CL4 (wavelength ranges between 200-850nm), UVMCL (wavelength ranges between 185-200nm) & FIRMCL (wavelength ranges between 1600-2300nm)<br>
+                               <div>
+                                   <br>To know more, <a href="../details/fesem.pdf">Click here</a>
+                                   <br>To book, <a href="../requisition_form/fesem.pdf">Click here</a>
+
+                                </div>
+                            </span>
+                        <span style="flex-grow:5;flex-basis:auto;">
+                            <h4><u>
+                                Faculty-in-Charge
+                                </u>
+                            </h4>
+                            <img src="https://www.iitism.ac.in/employee/861/emp_861_20151118054302.jpg" width="80%" alt="Dr. Ajoy Bhaumik"><br>
+                            Dr. Ajoy Bhaumik <br>Dept. of Applied Geology. <br>Tel. No. +91-9471173190 <br><u>FESEM operator:</u><br>Mr. Kausik Datta <br>Tel: +91 9732094510
+
+                        </span>
+                        <br>
                     </div>
                 </div>
 
