@@ -33,8 +33,7 @@
 
         .flex {
             display: flex;
-            margin: -1.3em;
-            margin-top: 0;
+            margin: 1.3em 0;
             flex-direction: column;
         }
 
@@ -42,7 +41,13 @@
             .flex {
                 display: flex;
                 flex-direction: row;
-                margin: 3em;
+                margin: 3em 0;
+            }
+        }
+
+        @media only screen and (min-width: 991px) {
+            .instrumentImg{
+                float:right;
             }
         }
 
@@ -219,41 +224,11 @@
             <!--useful for drop down menu -->
 
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                </ol>
-
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <img src="la.jpg" alt="Los Angeles">
-                    </div>
-
-                    <div class="item">
-                        <img src="chicago.jpg" alt="Chicago">
-                    </div>
-
-                    <div class="item">
-                        <img src="ny.jpg" alt="New York">
-                    </div>
-                </div>
-
-                <!-- Left and right controls -->
-                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                    <span class="sr-only">Next</span>
-                </a>
+                    <img src="../img/uv-vis-nir.png" alt="UV-VIS " width="100%" style="max-height:498px;">
             </div>
 
             <!-- Central Research Facility content starts here -->
-            <div class="flex" style="height:100vh;">
+            <div class="flex" style="height:auto;">
 
                 <!-- <div class="child1">
                     <ul style="list-style:none;padding: 0">
@@ -261,12 +236,45 @@
                         <li><a style="color:white" href="../instruments.html">INSTRUMENTS</a></li>
                         <li><a style="color:white" href="../contact.html">CONTACT</a></li>
                     </ul>
-                </div> -->
+                </div>  -->
+                <div class="child2" style="height:100%" >
+                    <div style="width: 100%; background-color: #f4f4f4; border: 1px solid #1982D1; border-radius: 30px; -webkit-border-radius: 30px; -moz-border-radius: 30px; padding: 5px;justify-content:space-between;" class="flex">
+                            <span style="flex-basis:auto;margin-right: 1em;">
+                           <h4><u>UV-VIS-NIR spectrophotometer</u></h4>
+                           <h5>Make and Model:</h5>
+                           Agilent Cary 5000 <br>
 
-                <div class="child2" style="height:100%">
-                    <div style="width: 100%; height: 100%; background-color: #f4f4f4; border: 1px solid #1982D1; border-radius: 30px; -webkit-border-radius: 30px; -moz-border-radius: 30px; padding: 5px;"><br>
-                        <iframe src="./FINAL_MALS.pdf" height="100%" width="100%" frameborder="0"></iframe>
-                        To book, <a href="./MALSS-Form.pdf">Click here</a>
+                           <h5>Major Features::</h5>
+                                <ul>
+                                    <li><u>Wavelength range</u>: 175 nm – 3300 nm </li>
+                                    <li><u>Monochromator</u>: Double out-of-plane Littrow Monochromator </li>
+                                    <li><u>Light source</u>: Tungsten-halogen and deuterium </li>
+                                    <li><u>Detector</u>: For UV-VIS : R 928 Photmultiplier; For NIR : Peltier cooled PbS photocell </li>
+                                    <li><u>Integrating Sphere</u>: 110 mm module for Specular and Diffuse Reflectance measurements</li>
+                                    <li><u>Slit width</u>: Variable slit width down to 0.01 nm for optimum control over data resolution</li>
+                                    <li><u>Sample compartment</u>: Large size with Lock Down mechanism for quick changes and positioning</li>
+                                    <li><u>Peltier Accessory</u>: For kinetics studies of liquid samples</li>
+                                    <li><u>Application software</u>: Windows based Cary WinUV software</li>
+                                    <li><u>Colour Calculator software</u>: For measurements of colour coordinates</li>
+                                </ul>
+                               <div>
+                                   <br>To know more, <a href="../details/uv-vis-nir.pdf">Click here</a>
+                                   <br>To book, <a href="../requisition_form/uv-vis-nir.pdf">Click here</a>
+                                    <br> <a href="../analysis_charge/information-uv-vis-nir.pdf">Analysis Charge</a>
+                                </div>
+                            </span>
+                        <span style="float: left;margin-left: 0;">
+                            <h4><u>
+                                Faculty-in-Charge
+                                </u>
+                            </h4>
+                            <img src="https://www.iitism.ac.in/employee/836/emp_836_20151118052620.jpg" width="150px" alt="Dr. S. K. Sharma"><br>
+                            Dr. S. K. Sharma <br>Dept. of Applied Physics. <br>Tel. No. 5412
+                            <br>Email: <a href="mailto:sksharma@iitism.ac.in">sksharma@iitism.ac.in</a>
+
+                            <br><u>SSA:</u><br>Mr. Tapas Kumar Sarkar <br>Tel: +91 9835559950
+
+                        </span>
                     </div>
                 </div>
 
