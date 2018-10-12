@@ -3,296 +3,763 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>CENTRAL RESEARCH FACILITY | IIT (ISM), DHANBAD </title>
-
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="../style/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../style/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../style/bootstrap-datepicker.css">
-    <link rel="stylesheet" type="text/css" href="../style/dataTables.bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="../style/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="../style/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="../style/style.css">
-    <script type="text/javascript" src="../style/jquery-1.9.1.min.js"></script>
-    <script type="text/javascript" src="../style/bootstrap.js"></script>
-    <script type="text/javascript" src="../style/change_color.js"></script>
-    <script type="text/javascript" src="../style/bootstrap-datepicker.js"></script>
-    <script type="text/javascript" src="../style/jquery.dataTables.js"></script>
+    <title>IIT (ISM), DHANBAD | INDIAN INSTITUTE OF TECHNOLOGY (INDIAN SCHOOL OF MINES), DHANBAD</title>
+    <link rel="stylesheet" type="text/css" href="../styles/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../styles/dataTables.bootstrap.css">
+    <script type="text/javascript" src="../styles/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="../styles/jquery.dataTables.js"></script>
+    <script src="../styles/popper.min.js.download"></script>
+    <script src="../styles/bootstrap.min.js.download"></script>
+    <script type="text/javascript" src="../styles/change_color.js.download"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="../styles/logo.png">
+    <link rel="stylesheet" href="../styles/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../styles/bootstrap_1.css">
+    <link rel="stylesheet" type="text/css" href="../styles/mystyle.css">
+    <link rel="stylesheet" type="text/css" href="../styles/navbar.css">
 
-    <style type="text/css">
+    <link rel="stylesheet" type="text/css" href="../styles/bootstrap-datepicker.css">
+    <script type="text/javascript" src="../styles/bootstrap-datepicker.js"></script>
+    <style>
         body {
             font-size: 14px;
             overflow-x: hidden;
         }
+.prev, .next {
+    cursor: pointer;
+    top: 50%;
+    width: auto;
+     padding: 0px;
+     margin-top: 0px;
+     color: white;
+     font-weight: normal;
+     font-size: 0px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+#mob_title{
+  display: none;
+  font-family: "freight-micro-pro",Georgia,serif;
+  font-size: 150%;
+}
+ .even{
+      width:80%;
+    }
+  @media screen and (max-width: 768px){
+    #mobile_nav{
+  display: block;
+}
 
-        .btn-primary {
-            background: #0e8ae8;
-            color: #ffffff;
-        }
+#logo_header{
+  display: block;
+}
 
-        .flex {
-            display: flex;
-            margin: 1.3em 0;
-            flex-direction: column;
-        }
 
-        #myCarousel img {
-            height: 200px;
-        }
+    #logo {
+    height: 100px;
+    width: 100px;
+}
+}
+ @media screen and (min-width: 556px){
+   .mob_button{
+    width: 100%;
+    margin: auto;
+   }
+}
 
-        @media only screen and (min-width: 768px) {
-            .flex {
-                display: flex;
-                flex-direction: row;
-                margin: 3em 0;
-            }
+  @media screen and (max-width: 556px){
+    .even{
+      width:100%;
+    }
+    #logo_header {
+   display: none;
+}
+   #mobile_nav{
+  display: block;
+}
+#mob_title{
+  display: block;
+}
+.logo_container {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    float: none;
+    width: 100%;
+}
 
-            #myCarousel img {
-                height: 360px;
-            }
+.name_container{
+text-align: center;
+  width: 100%;
+}
+}
 
-        }
+@media screen and (max-width: 768px){
+.name_container {
+   text-align: center;
+   width: 100%;
+}
+.logo_container{
+   left: 43%;
+    margin: inherit;
+}
 
-        .child1 {
-            flex: 3;
-        }
+}
 
-        .child2 {
-            flex: 1;
-        }
-    </style>
+.flex {
+    display: flex;
+    margin: 5px;
+    margin-top: 0;
+    width: 95%;
+    flex-direction: column;
+}
 
+@media only screen and (min-width: 968px) {
+    .flex {
+        display: flex;
+        width: 80%;
+        flex-direction: row;
+        margin: 8em;
+        justify-content: center;
+        margin-top:1em;
+        margin-bottom: 1em;
+    }
+}
+
+.abc img{
+   height: 450px;
+}
+
+.child1{
+    flex: 3;
+}
+.child2 {
+    flex: 1;
+}
+
+@media screen and (max-width: 800px) {
+.abc img{
+   height: 200px;
+}
+}
+
+</style>
 </head>
 
 <body id="forFont" data-gr-c-s-loaded="true">
-    <div class="container ">
-        <div class="row " id="upperNavbar" style="border-radius:4px;background-color:#0E8AE8;">
-            <div class="col-lg-12  ">
-                <div style="float:right;color:white;">
-                    <a id="sizeUp"><b style="color:white">A+</b></a>
-                    <a id="normal"><b style="color:white">A</b></a>
-                    <a id="sizeDown"><b style="color:white">A-</b></a>
-                    <span> | </span>
-                    <a href="https://mis.iitism.ac.in/" target="_blank" class="upperNavLink"><b>Intranet (MIS)</b></a>
-                    <span> | </span>
-                    <a href="http://mail.iitism.ac.in/" target="_blank" class="upperNavLink"><b>IIT (ISM) Mail</b></a>
-                    <span> | </span>
-                    <a href="https://www.iitism.ac.in/index.php/Research_consultancy/central_research_facility#" class="upperNavLink"
-                        data-toggle="modal" data-target="#myModal"><b>Contact Us</b></a>
-                    <span> | </span>
-                </div>
-            </div>
-        </div>
-        <div class="row" style="position:relative;">
-            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12" style="padding:0px">
-                <div id="logoContainer">
-                    <a style="width:auto; height:10px;" href="https://www.iitism.ac.in/"><img src="../style/ismlogo.png"
-                            id="ismlogo"></a>
-                </div>
-            </div>
-            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-                <div id="nameContainer">
-                    <h1 id="nameHin">केंद्रीय अनुसंधान सुविधा,&nbsp; भारतीय प्रौद्योगिकी संस्थान &nbsp;<span style="font-family:arial">(भारतीय&nbsp;खनि&nbsp;विद्यापीठ),
-                            धनबाद</span></h1>
-                    <h1 id="nameEng">CENTRAL RESEARCH FACILITY, &nbsp; INDIAN INSTITUTE OF TECHNOLOGY
-                        (INDIAN&nbsp;SCHOOL&nbsp;OF&nbsp;MINES), DHANBAD</h1>
-
-                </div>
-            </div>
-
-            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 center">
-
-            </div>
-        </div>
-
-        <div class="row" id="horizontal_bar" style="height:2px;background:#0e8ae8"></div>
-
-        <!-- Modal -->
-        <div class="modal fade" id="myModal" role="dialog">
-            <div class="modal-dialog">
-
-                <!-- Modal content-->
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">×</button>
-                        <h4 class="modal-title">Contact Us</h4>
-                    </div>
-                    <div class="modal-body">
-                        <p>Main Campus</p>
-                        <p>Indian Institute of Technology (Indian School of Mines), Dhanbad</p>
-                        <p>Jharkhand, India, 826004</p>
-                        <p>Phone- 0326-2235001,2235004</p>
-                        <p>Fax- 0326-2296563</p>
-                        <p> <a href="https://www.iitism.ac.in/pdfs/TD.pdf" class="bottomLink">Telephone Directory</a></p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-        <script type="text/javascript">
-            var domainroot = "https://www.iitism.ac.in";
-
-            function Gsitesearch(curobj) {
-                curobj.q.value = "site:" + domainroot + " " + curobj.qfront.value;
-            }
-
-        </script>
-
-        <title>IIT(ISM) DHANBAD | INDIAN INSTITUTE OF TECHNOLOGY (INDIAN SCHOOL OF MINES), DHANBAD</title>
-
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <link href="../style/bootstrap.css" rel="stylesheet">
-        <link href="../style/mystyles.css" rel="stylesheet">
-        <link href="../style/liquid-slider.css" rel="stylesheet">
-
-        <nav class="navbar navbar-default  navbar-custom row">
-            <div class="container" id="navcol">
-                <div class="navbar-header page-scroll">
-                    <button type="button" id="colbutton" class="navbar-toggle" data-toggle="collapse" data-target="#navbarcol">
-                        <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                    </button>
-                </div>
-                <div class="collapse navbar-collapse " id="navbarcol">
-                    <ul class="nav navbar-nav">
-                        <li class="dropdown">
-                            <a href="../index.html" class="dropdown-toggle">
-                                About CRF
-                            </a>
-                        </li>
-                        <li class="dropdown">
-                            <a href="../instruments.html" class="dropdown-toggle">
-                                Research Laboratories
-                            </a>
-                        </li>
-                        <li class="dropdown">
-                            <a href="../core_team.html" class="dropdown-toggle">
-                                CORE Team
-                            </a>
-                        </li>
-                        <li class="dropdown">
-                            <a href="../contact.html" class="dropdown-toggle">
-                                Contact Us
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <div class="container">
-            <style>
-                #navcol a {
-                    color: #398AE8;
-                }
-
-                .navbar-default {
-                    border: solid 1px #ddd;
-                    margin-top: 10px;
-                }
-            </style>
-            <link rel="stylesheet" type="text/css" href="../style/mystyle.css">
-            <!--useful for drop down menu -->
-
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                <img src="../img/surface-area-analyser.png" alt="surface area analyser " width="100%" style="max-height:498px;">
-            </div>
-
-            <!-- Central Research Facility content starts here -->
-            <div class="flex" style="height:auto;">
-
-                <div class="child2" style="height:100%">
-                    <div style="width: 100%; background-color: #f4f4f4; border: 1px solid #1982D1; border-radius: 30px; -webkit-border-radius: 30px; -moz-border-radius: 30px; padding: 5px;justify-content:space-between;"
-                        class="flex">
-                        <span style="margin: 1em;" class="child1">
-                            <h4><u>GAS SORPTION ANALYZER</u></h4><br>
-                            <b><u>3FLEX 3500 from Micromeritics Instrument Corporation, USA</u></b> is recognized as
-                            one of the most advanced instrument in the field for material surface characterization. It
-                            is a fully automated 3-port (with 2-Micropore ports and 1-Mesopore port) gas adsorption
-                            analyzer for providing high resolution adsorption, desorption, isotherms to advance and
-                            validate fundamental understanding into development of methodologies and process
-                            improvements.
-                            <h5>Major Features:</h5>
-                            <ul>
-                                <li>Minimum Measurable Surface Area Range: 0.01 m2/g </li>
-                                <li>Pore Diameter Range: 3.5 - 5000 Å</li>
-                                <li>Micropore Volume: Detectable within 0.0001 cc/g</li>
-                                <li>Analysis Range: 1.3  10-9 to 1.0 P/P0</li>
-                                <li>Ultimate Vacuum: 3.75  10-10 mm Hg </li>
-                            </ul>
-                            <div>
-                                <br>To know more : <a href="../details/gas-sorption-analyser.pdf">Click here</a>
-                                <br>Requisition Form : <a href="../requisition_form/gas-sorption-analyser.pdf">Click
-                                    here</a>
-                                <br>Analysis Charge : <a href="../analysis_charge/information-gas-sorption-analyser.pdf">Click
-                                    Here</a>
-                            </div>
-                        </span>
-                        <span class="child2">
-                            <h4><u>
-                                    Faculty-in-Charge
-                                </u>
-                            </h4>
-                            <img src="https://www.iitism.ac.in/employee/1014/emp_1014_20151118064442.jpg" width="150px"
-                                alt="Dr. A. K. Samanta"><br>
-                            Dr. A. K. Samanta <br>Dept. of Chemical Engg. <br>Tel. No. : 0326-2235087
-                            <br>Email: <a href="mailto:asamanta@iitism.ac.in">asamanta@iitism.ac.in</a>
-
-
-                            <br><u>GSA operator:</u><br>Mr. Gopal Bardhan<br>Tel: +91 8293569477
-
-                        </span>
-                    </div>
-                </div>
-
-
-            </div>
-
-            <!-- Central Research Facility content ends here -->
-
-
-            <!-- copyright footer-->
-            <div class="row"> <br><br>
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="background:#0e8ae8; height:25spx;color:white;text-align:center;padding-top:2px"
-                    id="copy_footer">
-                    <span><b>Copyright © Indian Institute of Technology (Indian School of Mines), Dhanbad</b></span>
-                </div>
-            </div>
-            <!-- /copyright footer-->
-
-            <script>
-                $("#green").click(function () {
-                    $('.chngecolor').css("color", "#61BD6D");
-                    $('.chngebgcolor').css("background-color", "#61BD6D");
-                });
-                $('#blue').click(function () {
-                    $('.chngecolor').css("color", "#0000FB");
-                    $('.chngebgcolor').css("background-color", "#0000FB");
-                });
-                $("#gray").click(function () {
-                    $('.chngecolor').css("color", "#A38F84");
-                    $('.chngebgcolor').css("background-color", "#A38F84");
-
-                });
-                $(function () {
-                    $('.dropdown').hover(function () {
-                        $(this).addClass('open');
-                    },
-                        function () {
-                            $(this).removeClass('open');
-                        });
-                });
-
-            </script>
-
+    <div class="container" id="upper-header">
+        <div class="row" id="upperNavbar" style="float: right">
+            <a href="https://www.iitism.ac.in/index.php/notice" class="upperNavLink"><b><span><img src="../styles/new.gif"></span>
+                    Notices </b></a>
+            <span class="upperNavLink">|</span>
+            <a href="https://www.iitism.ac.in/index.php/faculty_members" class="upperNavLink"><b>Faculty</b></a>
+            <span class="upperNavLink">|</span>
+            <a href="https://mis.iitism.ac.in/" target="_blank" class="upperNavLink"><b>MIS</b></a>
+            <span class="upperNavLink">|</span>
+            <a href="http://mail.iitism.ac.in/" target="_blank" class="upperNavLink"><b>Mail</b></a>
+            <span class="upperNavLink">|</span>
+            <a id="sizeUp"><b style="color:white">A+</b></a>
+            <a id="normal"><b style="color:white">A</b></a>
+            <a id="sizeDown"><b style="color:white">A-</b></a>
         </div>
     </div>
+    <br>
+    <div id="logo_header" class="container" style="background-color: #054284;">
+        <div class=" col-lg-2 col-md-2  col-xs-12 logo_space"></div>
+        <div class="col-lg-8 col-md-8  col-xs-12">
+            <div class="col-lg-2 col-md-2  col-xs-12 logo_container">
+                <a href="https://www.iitism.ac.in/" style=""><img id="logo" src="../styles/logo.png" alt="logo"></a>
+            </div>
+            <div class="col-lg-10 col-md-10 col-xs-12 name_container" style="">
+
+                <span class="border1" style="color: white;">केंद्रीय अनुसंधान सुविधा,&nbsp; भारतीय प्रौद्योगिकी संस्थान
+                    &nbsp;<span style="font-family:arial">(भारतीय&nbsp;खनि&nbsp;विद्यापीठ),
+                        धनबाद</span>
+                    <br>
+                    <span class="border1" style="color: white;font-size:115%;">CENTRAL RESEARCH FACILITY, &nbsp; INDIAN
+                        INSTITUTE OF TECHNOLOGY
+                        (INDIAN&nbsp;SCHOOL&nbsp;OF&nbsp;MINES), DHANBAD</span>
+                </span>
+            </div>
+        </div>
+        <div class=" col-lg-2 col-md-2 col-sm-2 col-xs-12 logo_space"></div>
+    </div>
+    <nav class="navbar yamm navbar-expand-md navbar-dark secondary-navbar" id="navbar1" role="navigation">
+
+        <div class="container">
+            <button class="navbar-toggler" style="" type="button" data-toggle="collapse" data-target="#navbarNav1">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav1">
+                <ul class="navbar-nav ml-auto navbar-right ">
+                    <li class="nav-item dropdown btn-group yamm-fw">
+                        <a class="nav-link dropdown-toggle " id="dropdownMenu1" href="https://www.iitism.ac.in/"
+                            aria-haspopup="true" aria-expanded="false">About IIT(ISM)</a>
+                    </li>
+                    <li class="nav-item dropdown btn-group yamm-fw">
+                        <a class="nav-link dropdown-toggle" id="dropdownMenu1" href="../index.html" aria-haspopup="true"
+                            aria-expanded="false">About CRF</a>
+                    </li>
+                    <li class="nav-item dropdown btn-group yamm-fw">
+                        <a class="nav-link dropdown-toggle" id="dropdownMenu1" href="../instruments.html" aria-haspopup="true"
+                            aria-expanded="false" href="https://www.iitism.ac.in/">Research Laboratories</a>
+                    </li>
+                    <li class="nav-item dropdown btn-group yamm-fw">
+                        <a class="nav-link dropdown-toggle" id="dropdownMenu1" href="../core_team.html" aria-haspopup="true"
+                            aria-expanded="false">CORE Team</a>
+                    </li>
+                    <li class="nav-item dropdown btn-group yamm-fw">
+                        <a class="nav-link dropdown-toggle" id="dropdownMenu1" href="../contact.html" aria-haspopup="true"
+                            aria-expanded="false">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("navbar1");
+            if (x.className === "navbar yamm navbar-expand-md navbar-dark secondary-navbar") {
+                x.className += " responsive";
+            } else {
+                x.className = "navbar yamm navbar-expand-md navbar-dark secondary-navbar";
+            }
+        }
+
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+
+        var btn = document.getElementById("annualreport");
+        var modal = document.getElementById('myModal');
+        var span = document.getElementById("close42");
+        dialog_box(btn, modal, span);
+
+        var btn = document.getElementById("archive");
+        var modal = document.getElementById('myModal2');
+        var span = document.getElementById("close244");
+        dialog_box(btn, modal, span);
+
+        var btn = document.getElementById("governingbody");
+        var modal = document.getElementById('myModal3');
+        var span = document.getElementById("close3");
+        dialog_box(btn, modal, span);
+
+        var btn = document.getElementById("academicadministration");
+        var modal = document.getElementById('myModal4');
+        var span = document.getElementById("close4");
+        dialog_box(btn, modal, span);
+
+        var btn = document.getElementById("generaladministration");
+        var modal = document.getElementById('myModal5');
+        var span = document.getElementById("close5");
+        dialog_box(btn, modal, span);
+        function dialog_box(a, b, c) {
+            a.onclick = function () {
+                b.style.display = "block";
+
+            }
+            c.onclick = function () {
+                b.style.display = "none";
+            }
+            window.onclick = function (event) {
+
+                if (event.target == b) {
+                    b.style.display = "none";
+
+                }
+            }
+        }
+
+    </script>
+
+    <div class="container" style="background-color: white;padding:0;">
+        <div class=" slideshow-container" style=" margin-bottom:-27px;box-shadow: 0 0 10px rgba(0,0,0,.15), 0 3px 3px rgba(0,0,0,.15);padding:0; ">
+
+            <style>
+                .image_caption {
+                    bottom: 50px;
+                    font-size: 150%;
+                    font-weight: bold;
+                }
+
+                .abc img {
+                    width: 65%;
+                    max-height: 100%;
+                }
+
+                @media screen and (max-width:1366px) and (min-width: 769px) {
+                    .abc {
+
+                        max-height: 510px;
+                    }
+
+                    .abc img {
+                        max-height: 510px;
+                    }
+                }
+
+                @media screen and (max-width:768px) {
+                    .image_caption {
+                        font-size: 80%;
+                    }
+
+                    .abc img {
+                        width: 100%;
+                        max-height: 510px;
+
+                    }
+                }
+            </style>
+            <div class="mySlides abc" style="background-color: black; display: block;">
+                <a target="blank">
+                    <img class="center" src="../img/surface-area-analyser.png">
+                    <div class="text image_caption" style=""></div>
+                </a>
+
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+            <br>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <style>
+        .even a {
+            font-family: "freight-micro-pro", Georgia, serif;
+            color: black;
+        }
+
+        .mySlides_research,
+        .mySlides_achive1 {
+            display: none;
+        }
+    </style>
+
+    <div class="flex" style="height:auto;">
+
+        <div class="child2" style="height:100%">
+            <div style="width: 100%; background-color: #f4f4f4; border: 1px solid #1982D1; border-radius: 30px; -webkit-border-radius: 30px; -moz-border-radius: 30px; padding: 5px;justify-content:space-between;"
+                class="flex">
+                <span style="margin: 1em;" class="child1">
+                    <h4><u>GAS SORPTION ANALYZER</u></h4><br>
+                    <b><u>3FLEX 3500 from Micromeritics Instrument Corporation, USA</u></b> is recognized as
+                    one of the most advanced instrument in the field for material surface characterization. It
+                    is a fully automated 3-port (with 2-Micropore ports and 1-Mesopore port) gas adsorption
+                    analyzer for providing high resolution adsorption, desorption, isotherms to advance and
+                    validate fundamental understanding into development of methodologies and process
+                    improvements.
+                    <h5>Major Features:</h5>
+                    <ul>
+                        <li>Minimum Measurable Surface Area Range: 0.01 m2/g </li>
+                        <li>Pore Diameter Range: 3.5 - 5000 Å</li>
+                        <li>Micropore Volume: Detectable within 0.0001 cc/g</li>
+                        <li>Analysis Range: 1.3  10-9 to 1.0 P/P0</li>
+                        <li>Ultimate Vacuum: 3.75  10-10 mm Hg </li>
+                    </ul>
+                    <div>
+                        <br>To know more : <a href="../details/gas-sorption-analyser.pdf">Click here</a>
+                        <br>Requisition Form : <a href="../requisition_form/gas-sorption-analyser.pdf">Click
+                            here</a>
+                        <br>Analysis Charge : <a href="../analysis_charge/information-gas-sorption-analyser.pdf">Click
+                            Here</a>
+                    </div>
+                </span>
+                <span class="child2">
+                    <h4><u>
+                            Faculty-in-Charge
+                        </u>
+                    </h4>
+                    <img src="https://www.iitism.ac.in/employee/1014/emp_1014_20151118064442.jpg" width="150px" alt="Dr. A. K. Samanta"><br>
+                    Dr. A. K. Samanta <br>Dept. of Chemical Engg. <br>Tel. No. : 0326-2235087
+                    <br>Email: <a href="mailto:asamanta@iitism.ac.in">asamanta@iitism.ac.in</a>
+
+
+                    <br><u>GSA operator:</u><br>Mr. Gopal Bardhan<br>Tel: +91 8293569477
+
+                </span>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <footer style="background:url(https://www.iitism.ac.in/assets/img/ism_heritage.jpg);margin: 0;text-transform: uppercase;">
+        <div class="container footer_header" style="background-color: black;opacity: 0.75;">
+            <br>
+            <div class="container">
+                <div class="">
+
+                    <div class="col-lg-2 col-xs-12 col-md-12 col-sm-12" id="quickl">
+                        <h4>Quick Links</h4>
+
+                        <ul style="-moz-columns: 3 200px; -webkit-columns: 3 200px; columns: 3 200px; padding:0px 0px 0px 0px; margin: 0px 0px 0px 0px; list-style-type: none;">
+
+                            <li><a href="https://www.iitism.ac.in/index.php/links/nirf_data_new" target="_blank">
+                                    NIRF DATA-2018
+                                </a></li>
+
+                            <li><a href="http://cec.nic.in/Pages/Home.aspx" target="_blank">
+                                    Digital Edu. E-Content
+                                </a></li>
+
+                            <li>
+                                <a href="https://www.iitism.ac.in/pdfs/sip/sip.pdf" target="_blank">
+                                    Skill India Programme
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.iitism.ac.in/index.php/links/ism_opening_main" target="_blank">
+                                    Recruitments @IITISM
+                                </a></li>
+
+
+                            <li><a href="https://www.iitism.ac.in/index.php/tender/tender_login" target="_blank">
+                                    Tender
+                                </a></li>
+
+                            <li><a href="https://www.iitism.ac.in/index.php/links/nirf_data" target="_blank">
+                                    NIRF DATA (Old)
+                                </a></li>
+
+                            <li><a href="https://www.iitism.ac.in/index.php/links/banks" target="_blank">
+                                    On Line Payment Link
+                                    <span><img src="../styles/new.gif"></span>
+                                </a></li>
+                            <li><a href="https://www.iitism.ac.in/index.php/convocation/Information_page" target="_blank">
+                                    Convocation Registration
+                                    <span><img src="../styles/new.gif"></span>
+                                </a></li>
+                        </ul>
+
+                    </div>
+                    <div class="col-lg-2 col-xs-12 col-md-12 col-sm-12" id="quickl">
+                        <h4>Important Links</h4>
+
+                        <ul style="-moz-columns: 3 200px; -webkit-columns: 3 200px; columns: 3 200px; padding:0px 0px 0px 0px; margin: 0px 0px 0px 0px; list-style-type: none;">
+
+                            <li><a href="https://www.iitism.ac.in/pdfs/telephone_directory/TD.pdf" target="_blank">
+                                    Telephone Directory
+                                    <span><img src="../styles/new.gif"></span>
+                                </a></li>
+
+                            <li><a href="https://www.iitism.ac.in/pdfs/UGC-ANTI-RAGGING-REGULATION.pdf" target="_blank">
+                                    Anti-Ragging Avidavit
+                                </a></li>
+
+                            <li><a href="https://www.iitism.ac.in/index.php/links/gender_sensitization" target="_blank">
+                                    Internal Complaints Committee
+                                </a></li>
+
+                            <li>
+                                <a href="https://www.iitism.ac.in/pdfs/Procedure-for-student-verification.pdf" target="_blank">
+                                    Verification of students
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.iitism.ac.in/index.php/links/rules" target="_blank">
+                                    Forms and Rules (Students)
+                                </a></li>
+
+                            <li><a href="https://www.iitism.ac.in/index.php/links/forms" target="_blank">
+                                    Forms and Rules (Faculty and Employees)
+                                </a></li>
+
+                            <li><a href="https://www.iitism.ac.in/index.php/academic_adminstration/rti" target="_blank">
+                                    RTI
+                                </a></li>
+                        </ul>
+
+                    </div>
+                    <div class="col-lg-2 col-xs-12 col-md-12 col-sm-12">
+                        <h4>Deans' Corner</h4>
+
+                        <ul style="-moz-columns: 3 200px; -webkit-columns: 3 200px; columns: 3 200px; padding:0px 0px 0px 0px; margin: 0px 0px 0px 0px;list-style-type: none;">
+
+                            <li><a href="https://www.iitism.ac.in/pdfs/dean/acad.pdf" target="_blank" class="bottomLink">Dean
+                                    (Academic)</a></li>
+                            <li><a href="https://www.iitism.ac.in/pdfs/dean/faculty.pdf" target="_blank" class="bottomLink">Dean
+                                    (Faculty)</a> </li>
+                            <li> <a href="https://www.iitism.ac.in/pdfs/dean/infra.pdf" target="_blank" class="bottomLink">Dean
+                                    (Infrastructure)</a></li>
+                            <li><a href="https://www.iitism.ac.in/pdfs/dean/iraa.pdf" target="_blank" class="bottomLink">Dean
+                                    (IRAA)</a></li>
+                            <li><a href="https://www.iitism.ac.in/pdfs/dean/rnd.pdf" target="_blank" class="bottomLink">Dean
+                                    (Research &amp; Developement)</a></li>
+
+                            <li><a href="https://www.iitism.ac.in/pdfs/dean/dsw.pdf" target="_blank" class="bottomLink">Dean
+                                    (Students' Welfare)</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-2 col-xs-12 col-md-12 col-sm-12">
+                        <h4>Academics</h4>
+
+                        <ul style="-moz-columns: 3 200px; -webkit-columns: 3 200px; columns: 3 200px; padding:0px 0px 0px 0px; margin: 0px 0px 0px 0px;list-style-type: none;">
+
+                            <li><a href="https://www.iitism.ac.in/pdfs/academics/AC.pdf" target="_blank" class="bottomLink">Acdemic
+                                    Calendar</a></li>
+                            <li>
+                            </li>
+                            <li><a href="http://www.iitismlib.ac.in/" target="_blank" class="bottomLink">Central
+                                    Library</a></li>
+                            <a href="https://www.iitism.ac.in/index.php/links/sports" target="_blank" class="bottomLink">Sports</a>
+                            <li><a href="https://www.iitism.ac.in/index.php/academics/convocation" target="_blank"
+                                    class="bottomLink">Convocation</a></li>
+
+                            <li>
+                                <a href="https://www.iitism.ac.in/pdfs/DSC.pdf" target="_blank" class="bottomLink">D.Sc.
+                                    Awarded</a></li>
+
+                            <li>
+                                <a href="https://www.iitism.ac.in/pdfs/PHD.pdf" target="_blank" class="bottomLink">Ph.D.
+                                    Awarded</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-xs-12 col-md-12 col-sm-12">
+                        <h4>Research</h4>
+
+                        <ul style="-moz-columns: 3 200px; -webkit-columns: 3 200px; columns: 3 200px; padding:0px 0px 0px 0px; margin: 0px 0px 0px 0px;list-style-type: none;">
+                            <li><a href="https://www.iitism.ac.in/pdfs/areas%20of%20expertize.pdf" target="_blank"
+                                    class="bottomLink">Areas of Expertise</a></li>
+
+                            <li><a href="https://www.iitism.ac.in/index.php/Research_consultancy/documents" target="_blank"
+                                    class="bottomLink">Important Forms etc.</a>
+                            </li>
+                            <li><a href="https://www.iitism.ac.in/pdfs/patents.pdf" target="_blank" class="bottomLink">Patents</a>
+                            </li>
+                            <li><a href="https://www.iitism.ac.in/index.php/Research_consultancy/central_research_facility"
+                                    target="_blank" class="bottomLink">CENTRAL RESEARCH FACILITY</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-2 col-md-12 col-sm-12 col-xs-12 admission" style="float: right;">
+                        <a href="https://www.iitism.ac.in/pdfs/telephone_directory/TD.pdf" target="_blank">
+                            <h4>Contact Us</h4>
+                            <div class="footer_address">
+                                <p>Main Campus<br>
+                                    Indian Institute of Technology (Indian School of Mines), Dhanbad<br>
+                                    Jharkhand, India, 826004<br>
+                                    Phone- 0326-2235001,2235004<br>
+                                    Fax- 0326-2296563</p>
+                            </div>
+                        </a>
+                        <a style="margin: 5px;" href="https://www.facebook.com/IITISMDHNB" target="_blank">
+                            <i style="    font-size: 200%;color: darkcyan;" class="fab fa-facebook-f"></i>
+                        </a>
+
+                        <a style="margin: 5px;" href="https://twitter.com/iitism_dhanbad" target="_blank">
+                            <i style="font-size: 200%;color: darkcyan;" class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding-left:15px;padding-right:15px;width:100%;background:#0e8ae8;color:white;padding-top:2px;text-align: center;"
+            id="copy_footer">
+            <span class="bottom_link" style=""><b>Copyright © IIT(ISM) Dhanbad</b></span>
+
+            <style>
+                .bottom_m {
+                    float: right;
+                }
+
+                @media screen and (max-width: 560px) {
+                    .bottom_m {
+                        float: none;
+                    }
+                }
+            </style>
+            <div class="bottom_m" style="">
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+        function plusSlides_0(n) {
+            showSlides_0(slideIndex += n);
+        }
+        function plusSlides_1(n) {
+            showSlides_1(slideIndex += n);
+        }
+        function plusSlides_events(n) {
+            showSlides_events(slideIndex += n);
+        }
+        function plusSlides_achive(n) {
+            showSlides_achive(slideIndex += n);
+        }
+        function plusSlides_achive1(n) {
+            showSlides_achive1(slideIndex += n);
+        }
+        function plusSlides_research(n) {
+            showSlides_research(slideIndex += n);
+        }
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+        function currentSlide_0(n) {
+            showSlides_0(slideIndex = n);
+        }
+        function currentSlide_1(n) {
+            showSlides_1(slideIndex = n);
+        }
+        function currentSlide_events(n) {
+            showSlides_events(slideIndex = n);
+        }
+        function currentSlide_achive(n) {
+            showSlides_achive(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+
+            slides[slideIndex - 1].style.display = "block";
+
+        }
+
+        function showSlides_0(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides_0");
+
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+
+            slides[slideIndex - 1].style.display = "block";
+
+        }
+
+        function showSlides_1(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides_1");
+
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+
+            slides[slideIndex - 1].style.display = "block";
+
+        }
+        function showSlides_achive(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides_achive");
+
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+
+            slides[slideIndex - 1].style.display = "block";
+
+        }
+        function showSlides_research(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides_research");
+
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+
+            slides[slideIndex - 1].style.display = "block";
+
+        }
+        function showSlides_achive1(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides_achive1");
+
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+
+            slides[slideIndex - 1].style.display = "block";
+
+        }
+        function showSlides_events(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides_events");
+
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+
+            slides[slideIndex - 1].style.display = "block";
+
+        }
+    </script>
+
+    <script>
+        $(document).ready(function () {
+
+            pageScroll();
+            $("#contain").mouseover(function () {
+                clearTimeout(my_time);
+            }).mouseout(function () {
+                pageScroll();
+            });
+            for (var i = 1; i <= 0; i++) {
+                var th_width = $('#' + ex_mod + ' > tbody > tr:first-child > td:nth-child(' + i + ')').width();
+                $('#' + ' > thead th:nth-child(' + i + ')').css('width', th_width + 'px');
+            }
+
+        });
+
+        var my_time;
+        function pageScroll() {
+            var objDiv = document.getElementById("contain");
+            objDiv.scrollTop = objDiv.scrollTop + 1;
+            if ((objDiv.scrollTop + 300) == objDiv.scrollHeight) {
+                objDiv.scrollTop = 0;
+            }
+            my_time = setTimeout('pageScroll()', 35);
+        }
+    </script>
 </body>
 
 </html>

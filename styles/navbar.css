@@ -1,0 +1,110 @@
+.primary-navbar{
+  z-index: 1;
+}
+.secondary-navbar{
+    cursor: pointer;  
+    text-anchor: 0,0;
+    background-color: #155ba7;
+
+}
+
+
+
+.btn{text-shadow:none}
+
+@media (max-width: 768px) {
+
+
+
+
+ .secondary-navbar.a {
+display: none;
+ }
+ .nav-class-3 h4{
+  font-size: 3.5vw;
+
+}
+
+.display-small{
+  display: block;
+}
+}
+
+
+.collapsible{
+  margin: 9px;
+  color: darkblue;
+  cursor: pointer;
+  background-color: lightgrey;
+  border-radius: 0.2em;
+}
+.nav-mini-link{
+  color: #551A8B;
+  cursor: pointer;
+}
+
+
+.yamm .nav,
+.yamm .collapse,
+.yamm .dropup,
+.yamm .dropdown {
+  position: static;
+}
+
+
+@media screen and (max-width:768px ){
+
+  .yamm .nav,
+.yamm .collapse,
+.yamm .dropup,
+.yamm .dropdown {
+  width: 100%;
+}
+#navbarNav1 > ul > li.nav-item.dropdown.btn-group.yamm-fw.open.show > div > div > div.card.border-left-0.border-top-0.border-bottom-0.col-sm-5.p-0 > div{
+  display: none;
+}
+
+
+
+}
+
+/*for resizing the text to make responsive*/
+@media (min-width: 768px){
+.navbar-expand-md .navbar-nav .nav-link {
+     padding-right:0; 
+    padding-left: .5rem;
+     margin-right: 16px;
+     margin-left: 50px;
+}
+
+
+/*.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    font-size:  1.9vw;
+}*/
+.navbar-nav>li>a {
+    padding-top: 15px;
+    font-size: 1.5vw;
+    padding-bottom: 15px;
+    color:white;
+}
+
+}
+.yamm .container {
+  position: relative;
+}
+.yamm .dropdown-menu {
+  left: auto;
+}
+.yamm .yamm-content {
+  padding: 20px 30px;
+}
+.yamm .dropdown.yamm-fw .dropdown-menu {
+  left: 0;
+  right: 0;
+}
+
+@media (max-width:768px){
+.card{
+    display: none;
+  }
+}

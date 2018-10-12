@@ -1,0 +1,844 @@
+
+
+ #upper-header{
+	background-color: #054284;
+	width:100%;
+	position:absolute;
+	top:0;
+	color:white;
+	z-index:200;
+
+}
+ #upper-header a{
+ 	color:white;
+ }
+
+
+ 
+         .logo_container{
+              flex: 0 0 16.666667%;
+            max-width: 16.666667%;
+          }
+          #logo{
+            float:right;width:75%;
+          }
+
+          @media screen and (min-width:768px){
+          .name_container{
+            text-align: center;
+            margin-top: 2%;
+            font-size: 1.06vw;
+            font-weight: bold;
+          }
+            }
+
+
+#upperNavbar{
+  margin-right: 10px;
+}
+
+#upperNavbar .upperNavLink{
+margin-right: 5px;
+text-decoration: none;
+}
+
+@media screen and (min-width: 576px){
+.container {
+    max-width: none;
+}
+}
+/*@media screen and (min-width: 768px){
+.container {
+    max-width: none;
+}
+*/
+@media screen and (max-width: 424px){
+b{
+  
+  
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #000; /*By Sourav*/
+   font-size: 3vw;
+   /*max-width: 10px;*/
+   height:auto;
+}
+.fab {
+  
+  height:auto;
+  font-size: 3vw;
+}
+
+
+
+}
+
+
+
+#campusview{
+background-color: #607D8B; 
+}
+
+
+
+
+@media screen and (max-width: 991px){
+#campusview{
+  background-color: white;
+  width:100%;
+}
+.col-md-12{
+ padding-right: 0px;
+ padding-left:0px; 
+ margin-top: 15px;
+}
+}
+
+
+@media screen and (min-width: 992px){
+#campusview{
+  height: 600px;
+}
+}
+
+
+
+/*
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}*/
+
+ 
+.dropdown-submenu {
+    position:relative;
+}
+.dropdown-submenu>.dropdown-menu {
+   top:0;left:100%;
+   margin-top:-6px;margin-left:-1px;
+   -webkit-box-shadow: inset 0 -1px 0 #dddddd;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+     }
+  
+.dropdown-submenu > a:after {
+  border-color: transparent;
+  border-style: solid;
+  border-width: 0px 0px 0px 0px;
+  content: " ";
+  display: block;
+  float: right;  
+  height: 0; 
+  width: 0;
+}
+ 
+.dropdown-submenu:hover>a:after {
+    border-left-color:transparent;
+ }
+
+
+
+
+#navbarcol > ul > li> a:hover{
+  text-decoration: none;
+    display: block;
+    color:white;
+    transition: 0.5s;
+    
+    background-color: orangered;
+}
+
+.navbar-nav>li>a {
+  
+   font-size:14px;
+}
+
+
+
+.dropdown-menu > li > a:hover, .dropdown-menu > .active > a:hover {
+    text-decoration: none;
+    display: block;
+    color:white;
+    transition: 0.5s;
+    font-size: 20px;
+   
+    
+    background-color: orangered;
+
+
+}  
+
+.dropdown-menu > li>a {
+  font-size: 18px;
+}  
+
+
+
+
+#nav {
+  position: fixed;margin-top:25px;z-index: 50;background-color:white; box-shadow: 0px 0px 2px black;
+}
+#navbarcol > ul > li > a:hover{
+  background-color: #d2492a;
+  color:white;
+}
+
+
+#navbarcol > ul > li.dropdown > ul{
+  color: white;
+  background-color: black;
+  opacity: 0.75;
+}
+
+/*#navbarcol > ul > li.dropdown > ul>a{
+  color: white;
+  background-color: black;
+  opacity: 0.75;
+}*/
+
+
+.dropdown-menu>li> a{
+  color:white;
+  background-color: black;
+  opacity: 0.95;
+}
+
+
+.navbar{
+  border-radius: 0px;
+
+}
+
+@media screen and (max-width: 599px) {
+
+button.navbar-toggler{
+  width: 100%;
+}
+}
+
+
+/*
+@media-screen and (max-width:800px){
+
+
+
+  .font-weight-light {
+    width: 80vw;
+    font-weight: 300 !important;
+}
+
+
+}*/
+
+@media screen and (max-width: 767px) {
+
+#navbarcol{
+  margin-top: 65px;
+}
+  .navbar-nav  {
+     display: inline;
+  }
+  .navbar-default .navbar-brand {
+    display: inline;
+  }
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: transparent;
+  }
+  
+#abc {
+    border-color: white;
+  }
+
+  .navbar-default .navbar-nav .img{
+    display: none;
+  }
+
+  .navbar-default .navbar-nav .dropdown-menu > li > a {
+    color: black;
+    background-color: transparent;
+    margin-top: 20px;
+
+  }
+   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+     color: white;
+   }
+   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover{
+     background-color: #f1f1f1;
+   }
+
+   .navbar-nav .open .dropdown-menu {
+      
+     border-radius: 0;
+   }
+  .dropdown-menu {
+      padding-left: 10px;
+  }
+  .dropdown-menu .dropdown-menu {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   }
+
+    .dropdown-menu .dropdown-submenu {
+      display: block;
+      position: relative;
+      
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   }
+.dropdown-menu .dropdown-submenu .ul{
+      display: none;
+    
+   }
+
+
+   .dropdown-menu .dropdown-menu .dropdown-menu {
+      padding-left: 10px;
+   }
+
+   li.dropdown.open {
+    border: 0px solid red;
+   }
+
+}
+ 
+@media screen and (min-width: 768px) {
+  ul.nav li:hover > ul.dropdown-menu {
+    display: block;
+  }
+  #navbar {
+    text-align: center;
+    background-color: #d2492a;
+    width:100%;
+    position:fixed;
+    top:27;
+    color:white;
+    z-index:100;
+
+  }
+}
+
+
+
+#navi1001 {
+    font-family: Verdana, sans-serif;
+}
+.dropdown{
+  color: black;
+}
+ul.dropdown-content{
+  display: none;
+}
+
+/*.content {
+  padding: 16px;
+}*/
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar.responsive {position: relative;}
+  .navbar.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .navbar.responsive .dropdown {
+    position: relative;
+    float: right
+    color:white;
+    background-color: black;
+    opacity: 0.75;
+   
+  }
+
+
+
+
+
+
+  .navbar.responsive .dropdown-content {position: relative;
+    text-align:center;}
+  .navbar.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+
+
+
+
+
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  /*"Lato", sans-serif;*/
+  /*freight-micro-pro",Georgia,serif;*/
+  color: #777;
+  background-color: transparent;
+}
+
+
+/*.bgimg-1 {
+  background-image: url("C:/Users/RM3G/Desktop/iit_ism/ism/ism_heritage.jpg");
+  min-height: 100%;
+
+   position: relative;
+ 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}*/
+
+
+.caption {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border1 {
+  background-color: transparent;
+  color: black;
+  padding: 18px;
+  font-weight: bold;
+  /*font-size: 2vw;*/
+  letter-spacing: 0px;
+  border: none;
+}
+
+
+
+
+h3 {
+  
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+   font-size: 2vw;
+}
+
+
+
+
+
+/* Turn off parallax scrolling for tablets and phones */
+/*@media only screen and (max-device-width: 1024px) {
+    .bgimg-1 {
+      min-height: 70%;
+     
+        background-attachment: scroll;
+        /*max-height: 60%;*/
+    }
+}*/
+@media screen and (max-width: 767px){
+  .txt{
+    max-width: 100%;
+  }
+}
+
+
+/*@media screen and (max-width: 448px){
+  .even{
+    margin-top: 600px;
+  }
+}*/
+
+@media screen and (max-width: 767px){
+  .eve{
+    display: none;
+  }
+  h3{
+    font-size: 1.75rem;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .events-notices{
+    max-width: 100%
+  }
+}
+
+/*@media screen and (max-width: 992px){
+  .events-notices{
+    float: left;
+  }
+}*/
+
+#myCarousel.carousel.slide{
+  height: 200px;
+  width: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: black; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+
+
+
+footer a{
+  color: white;
+}
+footer a:hover{
+  color:skyblue;
+}
+footer h4{
+  color: skyblue;
+}
+
+footer {
+    margin: 15px 0px 0px 0px;
+    background-color: navy;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    color: #fff;
+    font-size: 12px;
+    display: block;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1199px)
+{
+  #quickl{
+    margin-left: 20px;
+  }
+}
+
+
+
+
+
+body{
+  background:aliceblue;
+
+}
+
+li{list-style: none;}
+li a{text-decoration: none;}
+.drop_down{position: relative; width: 150px; opacity: 0;visibility: hidden;display:none;transition: ease-out .35s;-moz-transition: ease-out .35s;-webkit-transition: ease-out .35s;}
+/*First Level*/
+.subs {left: -45px;position: relative;top: 0px;width: 175px;border-left: none !important; border-bottom: 1px dotted #fff !important;}
+.subs:last-child{border: none !important;}
+.hassubs:hover .drop_down,.hassubs .hassubs:hover .drop_down{opacity: 1;visibility: visible; display: block; transition: ease-in .35s;-moz-transition: ease-in .35s;-webkit-transition: ease-in .35s;}
+.mainnav li:hover ul a,.mainnav li:hover ul li ul li a{color: white;}
+.mainnav li ul li:hover,.mainnav li ul li ul li:hover{background: #fff;transition: ease-in-out .35s;-moz-transition: ease-in-out .35s;-webkit-transition: ease-in-out .35s;}
+.mainnav li ul li:hover a,.mainnav li ul li ul li:hover a{color: maroon;transition: ease-in-out .35s;-moz-transition: ease-in-out .35s;-webkit-transition: ease-in-out .35s;}
+/*Second Level*/
+.hassubs .hassubs .drop_down .subs{left: 25px;position: relative;width: 165px;top: 0px;}
+.hassubs .hassubs .drop_down{position: absolute;width: 150px;left: 120px;top: 0px;opacity: 0;visibility: hidden;display:none;transition: ease-out .35s;-moz-transition: ease-out .35s;-webkit-transition: ease-out .35s;}
+
+.collapse{
+  visibility: visible;
+}
+@media screen and (max-width: 600px) {
+ #navbar1 a:not(:first-child) {display: none;}
+ 
+.card{
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 600px) {}
+  #navbar1.responsive {position: relative;}
+  #navbar1.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+  }
+  #navbar1.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+ul.dropdown-content{
+  display: none;
+}
+.yamm-fw{
+  width:19vw;
+}
+
+.dropdown-toggle::after{
+  display:none;}
+
+ /* .nav-link {
+     padding-right:0; 
+    padding-left: .5rem;
+     margin-right: 16px;
+}*/
+
+
+.table>tbody>tr>td>a{
+    color:#23211c;
+}
+
+
+.mySlides_1 {display: none}
+.mySlides_0 {display: none}
+.mySlides {display: none}
+
+img {vertical-align: middle;}
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+ .concetto {
+  display: none;
+    position: absolute;
+    bottom: 0;
+    background: rgba(1, 0, 0, 0.5); /* Black background with transparency */
+    color: #f1f1f1;
+    width: 100%;
+   
+  -webkit-transition: width 1.35s ease-in-out;
+  transition: width 1.35s ease-in-out;
+    
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+  .modal {
+                            display: none; /* Hidden by default */
+                            position: fixed; /* Stay in place */
+                            z-index: 1; /* Sit on top */
+                            padding-top: 100px; /* Location of the box */
+                            left: 0;
+                            top: 0;
+                            width: 100%; /* Full width */
+                            height: 100%; /* Full height */
+                            overflow: auto; /* Enable scroll if needed */
+                            background-color: rgb(0,0,0); /* Fallback color */
+                            background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+                        }
+
+                        /* Modal Content */
+                        .modal-content {
+                            background-color: #fefefe;
+                            opacity: 0.9;
+                            margin: auto;
+                            padding: 20px;
+                            border: 1px solid #888;
+                            width: 80%;
+                        }
+
+                        /* The Close Button */
+                        .close42 {
+                            color: #aaaaaa;
+                            float: right;
+                            font-size: 28px;
+                            font-weight: bold;
+                        }
+
+                        .close42:hover,
+                        .close42:focus {
+                            color: #000;
+                            text-decoration: none;
+                            cursor: pointer;
+                        }
+
+                        .close244 {
+                            color: #aaaaaa;
+                            float: right;
+                            font-size: 28px;
+                            font-weight: bold;
+                        }
+
+                        .close244:hover,
+                        .close244:focus {
+                            color: #000;
+                            text-decoration: none;
+                            cursor: pointer;
+                        }
+
+
+                        .close3 {
+                            color: #aaaaaa;
+                            float: right;
+                            font-size: 28px;
+                            font-weight: bold;
+                        }
+
+                        .close3:hover,
+                        .close3:focus {
+                            color: #000;
+                            text-decoration: none;
+                            cursor: pointer;
+                        }
+
+                        .close4 {
+                            color: #aaaaaa;
+                            float: right;
+                            font-size: 28px;
+                            font-weight: bold;
+                        }
+
+                        .close4:hover,
+                        .close4:focus {
+                            color: #000;
+                            text-decoration: none;
+                            cursor: pointer;
+                        }
+
+
+                        .close5 {
+                            color: #aaaaaa;
+                            float: right;
+                            font-size: 28px;
+                            font-weight: bold;
+                        }
+
+                        .close5:hover,
+                        .close5:focus {
+                            color: #000;
+                            text-decoration: none;
+                            cursor: pointer;
+                        }
+
+
