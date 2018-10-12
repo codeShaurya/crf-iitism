@@ -14,7 +14,7 @@
  }
 
 
- 
+
          .logo_container{
               flex: 0 0 16.666667%;
             max-width: 16.666667%;
@@ -54,8 +54,8 @@ text-decoration: none;
 */
 @media screen and (max-width: 424px){
 b{
-  
-  
+
+
   font: 400 15px/1.8 "Lato", sans-serif;
   color: #000; /*By Sourav*/
    font-size: 3vw;
@@ -63,7 +63,7 @@ b{
    height:auto;
 }
 .fab {
-  
+
   height:auto;
   font-size: 3vw;
 }
@@ -75,7 +75,7 @@ b{
 
 
 #campusview{
-background-color: #607D8B; 
+background-color: #607D8B;
 }
 
 
@@ -88,7 +88,7 @@ background-color: #607D8B;
 }
 .col-md-12{
  padding-right: 0px;
- padding-left:0px; 
+ padding-left:0px;
  margin-top: 15px;
 }
 }
@@ -109,7 +109,7 @@ background-color: #607D8B;
   text-align: center;
 }*/
 
- 
+
 .dropdown-submenu {
     position:relative;
 }
@@ -122,18 +122,18 @@ background-color: #607D8B;
     -o-transition: all 0.2s;
     transition: all 0.2s;
      }
-  
+
 .dropdown-submenu > a:after {
   border-color: transparent;
   border-style: solid;
   border-width: 0px 0px 0px 0px;
   content: " ";
   display: block;
-  float: right;  
-  height: 0; 
+  float: right;
+  height: 0;
   width: 0;
 }
- 
+
 .dropdown-submenu:hover>a:after {
     border-left-color:transparent;
  }
@@ -146,12 +146,12 @@ background-color: #607D8B;
     display: block;
     color:white;
     transition: 0.5s;
-    
+
     background-color: orangered;
 }
 
 .navbar-nav>li>a {
-  
+
    font-size:14px;
 }
 
@@ -163,16 +163,16 @@ background-color: #607D8B;
     color:white;
     transition: 0.5s;
     font-size: 20px;
-   
-    
+
+
     background-color: orangered;
 
 
-}  
+}
 
 .dropdown-menu > li>a {
   font-size: 18px;
-}  
+}
 
 
 
@@ -246,7 +246,7 @@ button.navbar-toggler{
   .navbar-default .navbar-toggle .icon-bar {
     background-color: transparent;
   }
-  
+
 #abc {
     border-color: white;
   }
@@ -269,7 +269,7 @@ button.navbar-toggler{
    }
 
    .navbar-nav .open .dropdown-menu {
-      
+
      border-radius: 0;
    }
   .dropdown-menu {
@@ -286,13 +286,13 @@ button.navbar-toggler{
     .dropdown-menu .dropdown-submenu {
       display: block;
       position: relative;
-      
+
       min-width: 160px;
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
    }
 .dropdown-menu .dropdown-submenu .ul{
       display: none;
-    
+
    }
 
 
@@ -305,7 +305,7 @@ button.navbar-toggler{
    }
 
 }
- 
+
 @media screen and (min-width: 768px) {
   ul.nav li:hover > ul.dropdown-menu {
     display: block;
@@ -376,7 +376,7 @@ ul.dropdown-content{
     color:white;
     background-color: black;
     opacity: 0.75;
-   
+
   }
 
 
@@ -416,7 +416,7 @@ body, html {
   min-height: 100%;
 
    position: relative;
- 
+
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -446,7 +446,7 @@ body, html {
 
 
 h3 {
-  
+
   text-transform: uppercase;
   font: 20px "Lato", sans-serif;
   color: #111;
@@ -461,7 +461,7 @@ h3 {
 /*@media only screen and (max-device-width: 1024px) {
     .bgimg-1 {
       min-height: 70%;
-     
+
         background-attachment: scroll;
         /*max-height: 60%;*/
     }
@@ -511,17 +511,17 @@ h3 {
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: #f1f1f1; 
+    background: #f1f1f1;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: black; 
+    background: black;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
+    background: #555;
 }
 
 
@@ -542,7 +542,7 @@ footer {
     background-color: navy;
     background-repeat: no-repeat;
     background-size: cover;
-    
+
     color: #fff;
     font-size: 12px;
     display: block;
@@ -584,7 +584,7 @@ li a{text-decoration: none;}
 }
 @media screen and (max-width: 600px) {
  #navbar1 a:not(:first-child) {display: none;}
- 
+
 .card{
     display: none;
   }
@@ -616,14 +616,15 @@ ul.dropdown-content{
   display:none;}
 
  /* .nav-link {
-     padding-right:0; 
+     padding-right:0;
     padding-left: .5rem;
      margin-right: 16px;
 }*/
 
 
 .table>tbody>tr>td>a{
-    color:#23211c;
+    color:blue;
+    font-weight: 800px;
 }
 
 
@@ -712,12 +713,12 @@ img {vertical-align: middle;}
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
@@ -732,16 +733,16 @@ img {vertical-align: middle;}
     background: rgba(1, 0, 0, 0.5); /* Black background with transparency */
     color: #f1f1f1;
     width: 100%;
-   
+
   -webkit-transition: width 1.35s ease-in-out;
   transition: width 1.35s ease-in-out;
-    
+
 }
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-   
+
 }
 
   .modal {
@@ -840,5 +841,3 @@ img {vertical-align: middle;}
                             text-decoration: none;
                             cursor: pointer;
                         }
-
-
